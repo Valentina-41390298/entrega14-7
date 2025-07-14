@@ -1,0 +1,41 @@
+
+/* Fonts */
+:root {
+  --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Barlow Condensed",  sans-serif;
+  --nav-font: "Open Sans",  sans-serif;
+  
+}
+
+/* Tipografías generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Títulos con Barlow Condensed */
+h1, h2, h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Estilo general para botones */
+.btn {
+    border-radius: 4px !important; /* más cuadrado */
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Botón amarillo */
+.btn-primary {
+    background-color: #fdd835;
+    border-color: #fbc02d;
+    color: #000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #fbc02d;
+    border-color: #f9a825;
+    color: #000;
+}
